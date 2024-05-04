@@ -1,0 +1,30 @@
+.nav {
+  padding: 10px 0;
+  background-color: $black;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include container;
+  }
+
+  &__logo-wrapper {
+    width: 100px;
+    // padding-top: 10px;
+  }
+
+  &__link {
+    margin-right: 10px;
+    color: $white;
+    font-size: 24px;
+    &:hover {
+      color: $gold;
+    }
+
+    &.active {
+      color: $gold;
+    }
+  }
+}

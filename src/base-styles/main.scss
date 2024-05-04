@@ -1,0 +1,9 @@
+/* Base styles */
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "general";
+
+// components
+
+@import "../components/NavBar/nav-bar";
