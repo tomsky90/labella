@@ -1,6 +1,9 @@
 .home {
-  background-color: $black;
   color: $white;
+
+  &__hero {
+    background-color: $black;
+  }
 
   &__hero-wrapper {
     position: relative;
