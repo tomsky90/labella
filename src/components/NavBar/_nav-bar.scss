@@ -1,12 +1,12 @@
 .nav {
-  padding: 10px 0;
+  padding: 20px 0;
+  margin-bottom: -10px;
   background-color: $black;
 
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     @include container;
   }
 
@@ -44,7 +44,7 @@
 
   &__mobile-nav {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
@@ -55,6 +55,7 @@
     background-color: $black;
     transform: translateY(-100%);
     transition: 1s ease-in-out;
+    z-index: 9;
 
     &.active {
       transform: translateY(0);
