@@ -31,13 +31,13 @@
   &__hero-text-wrapper {
     position: absolute;
     width: 32%;
-    text-align: center;
 
     @include view(mobile) {
       position: static;
       width: inherit;
       margin-top: 50px;
       margin-bottom: 50px;
+      text-align: center;
     }
   }
 
