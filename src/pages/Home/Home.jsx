@@ -5,6 +5,9 @@ import aboutImg from "../../assets/images/aboutImg.jpg";
 import badge from "../../assets/icons/excellence-honor-icon.png";
 import handShake from "../../assets/icons/partner-handshake-icon.png";
 import comb from "../../assets/icons/hair-salon-icon.png";
+import alice from "../../assets/images/alice.png";
+import jenny from "../../assets/images/Jenny.png";
+import betty from "../../assets/images/Betty.png";
 
 const Home = () => {
   return (
@@ -89,6 +92,38 @@ const Home = () => {
               you can trust us to provide you with the best service possible,
               using the most current techniques and knowledge.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="home-team">
+        <h2 className="home-team__heading">Our Team</h2>
+        <div className="home-team__wrapper">
+          <div className="home-team__card">
+            <div className="home-team__img-wrapper">
+              <img src={alice} alt="alice-owner" className="home-team__img" />
+            </div>
+            <h3>Alice</h3>
+            <p>
+              Job Title: Owner / Senior Stylist Specialist: Restyling &
+              Colouring
+            </p>
+          </div>
+          <div className="home-team__card">
+            <div className="home-team__img-wrapper">
+              <img src={jenny} alt="alice-owner" className="home-team__img" />
+            </div>
+            <h3>Jenny</h3>
+            <p>
+              Job Title: Receptionist / Senior Stylist Specialist: Restyling &
+              Colouring
+            </p>
+          </div>
+          <div className="home-team__card">
+            <div className="home-team__img-wrapper">
+              <img src={betty} alt="alice-owner" className="home-team__img" />
+            </div>
+            <h3>Betty</h3>
+            <p>Job Title: Junior Stylist Specialist: Restyling & Colouring</p>
           </div>
         </div>
       </section>
