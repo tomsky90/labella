@@ -22,7 +22,6 @@
     color: $gold;
     font-size: 54px;
     font-weight: bold;
-    z-index: 100;
 
     @include view(mobile) {
       font-size: 30px;
