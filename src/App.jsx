@@ -27,9 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: (
-          <About heading={"About Us"} subheading={"Bit More About Us"} />
-        ),
+        element: <About />,
       },
     ],
   },
