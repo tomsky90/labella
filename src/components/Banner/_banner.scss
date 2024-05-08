@@ -1,6 +1,7 @@
 .banner {
   height: 500px;
   overflow-y: hidden;
+  position: relative;
 
   @include view(mobile) {
     height: 300px;
