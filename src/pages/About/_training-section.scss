@@ -1,0 +1,61 @@
+.about-training {
+  padding: 150px 0;
+  background-color: $pink;
+
+  &__heading {
+    position: relative;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      height: 3px;
+      width: 70px;
+      background-color: $gold;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    @include container;
+
+    @include view(mobile) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__text-wrapper {
+    margin-top: 50px;
+    width: 35%;
+
+    @include view(mobile) {
+      width: 100%;
+    }
+  }
+
+  &__subheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__img-wrapper {
+    width: 30%;
+    margin-top: 50px;
+    @include view(mobile) {
+      width: 100%;
+    }
+  }
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
