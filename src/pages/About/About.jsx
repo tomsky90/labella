@@ -1,11 +1,16 @@
 import Banner from "../../components/Banner/Banner";
 import alice from "../../assets/images/About-page-image.png";
 import bride from "../../assets/images/bride.png";
+import bannerImg from "../../assets/images/beauty-salon-4043096_1280.jpg";
 
 const About = () => {
   return (
     <div>
-      <Banner heading={"About Us"} subheading={"Bit More About Us"} />
+      <Banner
+        heading={"About Us"}
+        subheading={"Bit More About Us"}
+        img={bannerImg}
+      />
       <section className="about">
         <div className="about__welcom-section-wrapper">
           <div className="about__welcom-img-wrapper">
