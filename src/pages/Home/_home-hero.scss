@@ -22,6 +22,7 @@
   &__hero-img {
     width: 100%;
     transform: translateX(200px);
+    margin-bottom: -4px;
 
     @include view(tablet) {
       transform: translateX(100px);
