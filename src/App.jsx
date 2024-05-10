@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Prices from "./pages/Prices/Prices";
 import Contact from "./pages/Contact/Contact";
+
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
 
 import "./base-styles/main.scss";

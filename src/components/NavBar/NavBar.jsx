@@ -46,16 +46,32 @@ const NavBar = () => {
           <button onClick={closeNav} className="nav__mobile-close-btn">
             <img src={menuCloseBtn} alt="menu close button" />
           </button>
-          <NavLink className="nav__link nav__link--mobile" to="./">
+          <NavLink
+            onClick={closeNav}
+            className="nav__link nav__link--mobile"
+            to="./"
+          >
             Home
           </NavLink>
-          <NavLink className="nav__link nav__link--mobile" to="./about">
+          <NavLink
+            onClick={closeNav}
+            className="nav__link nav__link--mobile"
+            to="./about"
+          >
             About
           </NavLink>
-          <NavLink className="nav__link nav__link--mobile" to="./prices">
+          <NavLink
+            onClick={closeNav}
+            className="nav__link nav__link--mobile"
+            to="./prices"
+          >
             Prices
           </NavLink>
-          <NavLink className="nav__link nav__link--mobile" to="./contact">
+          <NavLink
+            onClick={closeNav}
+            className="nav__link nav__link--mobile"
+            to="./contact"
+          >
             Contact
           </NavLink>
         </ul>
