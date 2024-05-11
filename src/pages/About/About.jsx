@@ -1,7 +1,10 @@
 import Banner from "../../components/Banner/Banner";
-import alice from "../../assets/images/About-page-image.png";
+import largeAlice from "../../assets/images/About-page-image.png";
 import bride from "../../assets/images/bride.png";
 import bannerImg from "../../assets/images/beauty-salon-4043096_1280.jpg";
+import jenny from "../../assets/images/Jenny.png";
+import betty from "../../assets/images/Betty.png";
+import alice from "../../assets/images/alice.png";
 
 const About = () => {
   return (
@@ -14,7 +17,7 @@ const About = () => {
       <section className="about">
         <div className="about__welcom-section-wrapper">
           <div className="about__welcom-img-wrapper">
-            <img src={alice} alt="Owner" className="about__welcome-img" />
+            <img src={largeAlice} alt="Owner" className="about__welcome-img" />
           </div>
           <div className="about__welcom-text-wrapper">
             <h2 className="about__welcom-heading">Welcome To LaBella</h2>
@@ -56,6 +59,38 @@ const About = () => {
               src={bride}
               alt="bride hair style"
             />
+          </div>
+        </div>
+      </section>
+      <section className="team">
+        <h2 className="team__heading">Our Team</h2>
+        <div className="team__wrapper">
+          <div className="team__card">
+            <div className="team__img-wrapper">
+              <img src={alice} alt="alice-owner" className="team__img" />
+            </div>
+            <h3>Alice</h3>
+            <p>
+              Job Title: Owner / Senior Stylist Specialist: Restyling &
+              Colouring
+            </p>
+          </div>
+          <div className="team__card">
+            <div className="team__img-wrapper">
+              <img src={jenny} alt="alice-owner" className="team__img" />
+            </div>
+            <h3>Jenny</h3>
+            <p>
+              Job Title: Receptionist / Senior Stylist Specialist: Restyling &
+              Colouring
+            </p>
+          </div>
+          <div className="team__card">
+            <div className="team__img-wrapper">
+              <img src={betty} alt="alice-owner" className="team__img" />
+            </div>
+            <h3>Betty</h3>
+            <p>Job Title: Junior Stylist Specialist: Restyling & Colouring</p>
           </div>
         </div>
       </section>

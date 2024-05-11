@@ -2,6 +2,10 @@
   padding: 150px 0;
   background-color: $pink;
 
+  @include view(mobile) {
+    padding: 150px 0;
+  }
+
   &__heading {
     position: relative;
     text-align: center;
