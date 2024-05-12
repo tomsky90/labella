@@ -1,9 +1,9 @@
-import logo from "../../assets/icons/logo.png";
-import pin from "../../assets/icons/maps-pin-line-icon.png";
-import phone from "../../assets/icons/phone-line-icon.png";
-import mail from "../../assets/icons/envelope-line-icon.png";
-import instagram from "../../assets/icons/black-instagram-icon.png";
-import x from "../../assets/icons/x-social-media-black-icon.png";
+import logo from "../../assets/icons/logo.webp";
+import pin from "../../assets/icons/maps-pin-line-icon.webp";
+import phone from "../../assets/icons/phone-line-icon.webp";
+import mail from "../../assets/icons/envelope-line-icon.webp";
+import instagram from "../../assets/icons/black-instagram-icon.webp";
+import x from "../../assets/icons/x-social-media-black-icon.webp";
 
 const Footer = () => {
   return (

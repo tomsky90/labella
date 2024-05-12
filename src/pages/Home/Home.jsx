@@ -5,12 +5,12 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import heroImg from "../../assets/images/woman-684686_1280.png";
-import razor from "../../assets/icons/razor.png";
+import heroImg from "../../assets/images/woman-684686_1280.webp";
+import razor from "../../assets/icons/razor.webp";
 import aboutImg from "../../assets/images/aboutImg.webp";
-import badge from "../../assets/icons/excellence-honor-icon.png";
-import handShake from "../../assets/icons/partner-handshake-icon.png";
-import comb from "../../assets/icons/hair-salon-icon.png";
+import badge from "../../assets/icons/excellence-honor-icon.webp";
+import handShake from "../../assets/icons/partner-handshake-icon.webp";
+import comb from "../../assets/icons/hair-salon-icon.webp";
 import slider1 from "../../assets/images/slider1.webp";
 import slider2 from "../../assets/images/slider2.webp";
 import slider3 from "../../assets/images/slider3.webp";
@@ -39,7 +39,7 @@ const Home = () => {
         <div className="home-about__wrapper">
           <div className="home-about__tile">
             <div className="home-about__icon-wrapper">
-              <img src={razor} alt="razor" />
+              <img className="home-about__icon" src={razor} alt="razor" />
             </div>
             <div className="home-about__text-wrapper">
               <h2 className="home-about__heading">About Us</h2>

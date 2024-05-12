@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import Logo from "../../assets/icons/logo.png";
+import Logo from "../../assets/icons/logo.webp";
 import menuCloseBtn from "../../assets/icons/close.png";
 import menuBtn from "../../assets/icons/burger-icon.png";
 
