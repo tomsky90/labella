@@ -23,7 +23,7 @@ const NavBar = () => {
             <img src={Logo} alt="logo" />
           </Link>
         </div>
-        <ul className="nav__desktop-nav">
+        <div className="nav__desktop-nav">
           <NavLink className="nav__link" to="./">
             Home
           </NavLink>
@@ -36,11 +36,11 @@ const NavBar = () => {
           <NavLink className="nav__link" to="./contact">
             Contact
           </NavLink>
-        </ul>
+        </div>
         <button className="nav__mobile-show-btn" onClick={showNav}>
           <img src={menuBtn} alt="" />
         </button>
-        <ul
+        <div
           className={isNavActive ? "nav__mobile-nav active" : "nav__mobile-nav"}
         >
           <button onClick={closeNav} className="nav__mobile-close-btn">
@@ -74,7 +74,7 @@ const NavBar = () => {
           >
             Contact
           </NavLink>
-        </ul>
+        </div>
       </div>
     </nav>
   );

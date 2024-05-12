@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner/Banner";
-import bannerImg from "../../assets/images/barbershop-4484300_1280.jpg";
-import offerimg from "../../assets/images/offers-card.png";
+import bannerImg from "../../assets/images/barbershop-4484300_1280.webp";
+import offerimg from "../../assets/images/offers-card.webp";
 
 const Prices = () => {
   return (

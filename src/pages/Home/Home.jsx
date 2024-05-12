@@ -7,16 +7,16 @@ import "swiper/css/navigation";
 
 import heroImg from "../../assets/images/woman-684686_1280.png";
 import razor from "../../assets/icons/razor.png";
-import aboutImg from "../../assets/images/aboutImg.jpg";
+import aboutImg from "../../assets/images/aboutImg.webp";
 import badge from "../../assets/icons/excellence-honor-icon.png";
 import handShake from "../../assets/icons/partner-handshake-icon.png";
 import comb from "../../assets/icons/hair-salon-icon.png";
-import slider1 from "../../assets/images/slider1.jpg";
-import slider2 from "../../assets/images/slider2.jpg";
-import slider3 from "../../assets/images/slider3.jpg";
-import slider4 from "../../assets/images/slider4.jpg";
-import slider5 from "../../assets/images/slider5.jpg";
-import slider6 from "../../assets/images/slider6.jpg";
+import slider1 from "../../assets/images/slider1.webp";
+import slider2 from "../../assets/images/slider2.webp";
+import slider3 from "../../assets/images/slider3.webp";
+import slider4 from "../../assets/images/slider4.webp";
+import slider5 from "../../assets/images/slider5.webp";
+import slider6 from "../../assets/images/slider6.webp";
 
 const Home = () => {
   return (
