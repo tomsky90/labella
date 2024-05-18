@@ -67,7 +67,7 @@ const Home = () => {
         <div className="home-choose-us__wrapper">
           <div className="home-choose-us__tile">
             <div className="home-choose-us__icon-wrapper">
-              <img src={badge} alt="badge" />
+              <img className="home-choose-us__icon" src={badge} alt="badge" />
             </div>
             <h3 className="home-choose-us__tile-heading"> Experience</h3>
             <p className="home-choose-us__tile-text">
@@ -79,7 +79,11 @@ const Home = () => {
           </div>
           <div className="home-choose-us__tile">
             <div className="home-choose-us__icon-wrapper">
-              <img src={handShake} alt="badge" />
+              <img
+                className="home-choose-us__icon"
+                src={handShake}
+                alt="badge"
+              />
             </div>
             <h3 className="home-choose-us__tile-heading"> Trust</h3>
             <p className="home-choose-us__tile-text">
@@ -93,7 +97,7 @@ const Home = () => {
           </div>
           <div className="home-choose-us__tile">
             <div className="home-choose-us__icon-wrapper">
-              <img src={comb} alt="badge" />
+              <img className="home-choose-us__icon" src={comb} alt="badge" />
             </div>
             <h3 className="home-choose-us__tile-heading"> Knowledge</h3>
             <p className="home-choose-us__tile-text">

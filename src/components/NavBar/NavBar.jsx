@@ -20,7 +20,7 @@ const NavBar = () => {
       <div className="nav__container">
         <div className="nav__logo-wrapper">
           <Link to="/">
-            <img src={Logo} alt="logo" />
+            <img className="nav__logo" src={Logo} alt="logo" />
           </Link>
         </div>
         <div className="nav__desktop-nav">
@@ -44,7 +44,11 @@ const NavBar = () => {
           className={isNavActive ? "nav__mobile-nav active" : "nav__mobile-nav"}
         >
           <button onClick={closeNav} className="nav__mobile-close-btn">
-            <img src={menuCloseBtn} alt="menu close button" />
+            <img
+              className="nav__mobile-close-btn-img"
+              src={menuCloseBtn}
+              alt="menu close button"
+            />
           </button>
           <NavLink
             onClick={closeNav}

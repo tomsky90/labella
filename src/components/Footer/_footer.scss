@@ -44,10 +44,14 @@
 
   &__link-icon {
     width: 20px;
+    height: 100%;
     object-fit: contain;
   }
 
   &__logo {
+    width: 100%;
+    height: 80%;
+
     @include view(tablet) {
       width: 100px;
     }

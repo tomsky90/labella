@@ -19,6 +19,11 @@
     }
   }
 
+  &__logo {
+    width: 100%;
+    height: 100%;
+  }
+
   &__desktop-nav {
     @include view(mobile) {
       display: none;
@@ -64,10 +69,11 @@
 
   &__mobile-show-btn {
     display: none;
+    width: 25px;
+    height: 25px;
 
     @include view(mobile) {
       display: block;
-      padding-right: 20px;
     }
   }
 
@@ -75,5 +81,10 @@
     position: absolute;
     top: 40px;
     right: 40px;
+  }
+
+  &__mobile-close-btn-img {
+    width: 25px;
+    height: 25px;
   }
 }
