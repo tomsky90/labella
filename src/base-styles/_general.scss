@@ -4,8 +4,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "lato";
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+  font-display: swap;
+}
+
 body {
-  font-family: "Inria Serif", serif; /* Use the font family */
+  font-family: "Inria Serif", serif;
 }
 html {
   overflow-x: hidden;
