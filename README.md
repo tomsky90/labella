@@ -1,4 +1,5 @@
-#About This Project
+# About This Project
+
 This personal project shows my skills in Figma and React. I prepared the design in Figma, giving it a modern look, and built it using the newest React features. It highlights my ability to create clean, responsive, and interactive web pages. Check it out to see my work in design and development.
 
 # React + Vite
