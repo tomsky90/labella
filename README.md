@@ -10,6 +10,6 @@ This personal project shows my skills in Figma and React. I prepared the design 
 
 # Get Started
 
-## Clone this repository
+- clone this repository
 - npm i
 - npm run dev
